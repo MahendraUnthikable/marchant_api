@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "poetry-config"
+version = "0.1.0"
+description = ""
+authors = ["MahendraUnthinkable <mahendra.singh@unthinkable.co>"]
+readme = "README.md"
+packages = [{include = "poetry_config"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0.5"
+djangorestframework = "^3.13.1"
+flake8 = "^4.0.1"
+black = "^22.3.0"
+psycopg2-binary = "^2.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
